@@ -4,8 +4,7 @@ Store [Assert](https://github.com/redding/assert) test run data and result data 
 
 ## Why should I use this?
 
-The idea is to relieve memory pressure and get some performance gains when running large test suites.  The test suite needs to be sufficiently so that
-the gains from not keeping this data in memory outweight the overhead of storing/fetching the data from sqlite.
+The idea is to relieve memory pressure and get some performance gains when running large test suites.  The test suite needs to be sufficiently large so that the gains from not keeping this data in memory outweight the overhead of storing/fetching the data from sqlite.
 
 TODO: give some rough estimates of what suite sizes this starts to benefit
 
